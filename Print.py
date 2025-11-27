@@ -1,4 +1,4 @@
-num = 0
+num = 20
 
-for i in range(num):
+for i in range(num):   
     print(i)

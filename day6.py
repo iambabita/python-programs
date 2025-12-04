@@ -21,7 +21,8 @@ print("My college name is",a)
 b=(input("Your hobbies are:"))
 print("I like to",b)
 
-
+c=(input("What is your father put is your name?:"))
+print("Your father",c)
 
 x=(input("Enter first num:"))
 y=(input("Enter second number:"))

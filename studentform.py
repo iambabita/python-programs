@@ -1,0 +1,12 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+class_name = input("Enter your class: ")
+school = input("Enter your school name: ")
+hobby = input("Enter your hobby: ")
+
+print("\n--- Student Introduction ---")
+print("My name is", name)
+print("I am", age, "years old")
+print("I study in class", class_name)
+print("My school name is", school)
+print("My hobby is", hobby)

@@ -11,7 +11,7 @@ times=24
 for i in range (times):
     radius=240-i
     for j in range (times):
-        turtle.color (colorsys.hsv_to_rgb (i/times 1,1))
+        turtle.color (colorsys.hsv_to_rgb (i/times ,1,1))
         min(1,0.1+j/times), min(1,0.1/times)
         turtle.circle(radius)
         radius-=8

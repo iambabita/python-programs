@@ -26,6 +26,7 @@ print(o)
 p=[100,200,300,400,500]
 l.extend(m)
 print(l)
-
+k=o+p
+print(k)
 
 

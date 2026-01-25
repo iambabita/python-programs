@@ -1,6 +1,6 @@
-# Weather Data Analysis Program
+# Weather Data  
 
-# Sample weather data for 7 days
+ 
 # Format: (Day, Temperature in °C, Humidity %, Rainfall in mm)
 weather_data = [
     ("Monday", 25, 60, 0),

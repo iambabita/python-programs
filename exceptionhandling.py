@@ -6,6 +6,10 @@ try:
     print(f" {int(a)}x{i}={int(a)*i}")
 
 except Exception as e:
+ print(e)
+
   
  print("Some lines of code")
 print("End of program")
+
+

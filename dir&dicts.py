@@ -22,7 +22,7 @@ class childclass(parent):
 
     def child_method(self):
         print("This is a child method")
-        super().parent_method()   # correct spelling
+        super().parent_method()    
 
 child_object = childclass()
 child_object.child_method()

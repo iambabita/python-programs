@@ -11,7 +11,7 @@ def main():
     try:
         logging.info("Program started")
 
-        # Your main logic here
+        #main logic here
         name = input("Enter your name: ")
         print(f"Hello, {name}! Welcome to Python.")
 

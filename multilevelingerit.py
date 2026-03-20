@@ -1,0 +1,33 @@
+class animal:
+    def __init__(self , name , species):
+        self.name = name
+        self.species = species
+
+    def show_details(self):   # <-- FIX: moved outside __init__
+        print(f"{self.name}")
+        print(f"{self.species}")
+
+
+class dog(animal):
+    def __init__(self, name, breed):
+        animal.__init__(self , name , species="Dog")
+        self.breed = breed
+
+    def show_details(self):
+        animal.show_details(self)
+        print(f"breed: {self.breed}")
+
+
+class goldenretriever(dog):
+    def __init__(self, name, color):
+        dog.__init__(self , name , breed="golden retriever")
+        self.color = color
+
+    def show_details(self):
+        dog.show_details(self)
+        print(f"color: {self.color}")
+
+
+o = goldenretriever("Leo", "white")
+o.show_details()
+print(goldenretriever.mro())
